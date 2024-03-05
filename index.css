@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body
+{
+    background-color: whitesmoke;
+}
+
+.logo
+{
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header
+{
+  width: 100%;
+  height: 3.5rem;
+  background-color: rgb(44, 189, 44);
+}
+
+nav
+{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links
+{
+  flex: 1;
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav-links ul li
+{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 16px; 
+  margin-right: 10px; 
+  position: relative;
+}
+
+.nav-links ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.text-box3
+{
+    width: 90%;
+    margin: 80px 80px;
+    position: absolute;
+    text-align: justify;
+}
+
+.text-box3 h1
+{
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+.text-box3 p
+{
+  width: 100%;
+  color: rgb(81, 80, 80);
+  font-size: 18px;
+  margin: 10px 0 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter ;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.text-box3 ul
+{
+  padding-left: 35px;
+}
+.text-box3 ul li
+{
+  width: 100%;
+  color: rgb(81, 80, 80);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter ;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+  padding-left: 5px;
+}
+
+aside
+{
+width: 25%;
+height: 60vh;
+margin: 80px 80px;
+float: right;
+padding-bottom: 35px;
+}
+
+aside img{
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+.footer1
+{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(44, 189, 44);
+    color: white;   
+    position: absolute;
+}
